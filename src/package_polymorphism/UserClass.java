@@ -1,10 +1,12 @@
 package package_polymorphism;
 
-public class UserClass extends Polymorphism {
+public class UserClass extends Polymorphism { 	/* Inheriting the class */
 	
 	public static void main(String[] args) {
 		
-		UserClass uc = new UserClass();
+		UserClass uc = new UserClass(); /* object creation */ 
+		
+		/* Method calling */
 		
 		System.out.println( "addition of int and int: "+uc.addition(5, 9)+"\n");
 		
